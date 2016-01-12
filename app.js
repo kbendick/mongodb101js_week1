@@ -26,7 +26,7 @@ function buildMovieJSON(title, year, imdb) {
 }
 
 
-// Connect to local db named video
+// Connect to a pre-existing local db named video with a movies collection
 MongoClient.connect('mongodb://localhost:27017/video', function(err, db) {
 
 	// Defined as a subfunction to allow access to db.
