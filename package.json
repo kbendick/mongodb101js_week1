@@ -1,0 +1,15 @@
+{
+    "name": "m101js_week1_challenge_problem",
+    "version": "0.1.0",
+    "description": "Challenge problem for week 1 of m101js @ mongodb university",
+    "main": "app.js",
+    "dependencies": {
+        "express": ">=4.13.3",
+        "body-parser": ">=1.14.2",
+        "consolidate": ">=0.13.1",
+        "nunjucks": ">=2.2.0",
+        "mongodb": "~2.1.3"
+    },
+    "author": "Kyle Bendickson",
+    "license": "0BSD"
+}

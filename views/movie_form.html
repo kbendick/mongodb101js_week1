@@ -1,0 +1,22 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>Movie Form</title>
+    <style>
+      body { font-family: 'Helvetica', 'Arial', sans-serif; }
+    </style>
+  </head>
+  <body>
+     <form action="/insert_movie" method="POST">
+        <p>Please enter the title, year, and imdb link for the movie 
+           you'd like to add to the database.
+        </p>
+          <p>
+            Title: <input type="text" name="title" id="title" />
+            Year: <input type="text" name="year" id="year" />
+            IMDB: <input type="text" name="imdb" id="imdb" />
+          </p>
+        <input type="submit" value="Submit"/>
+     </form>
+  </body>
+</html>
